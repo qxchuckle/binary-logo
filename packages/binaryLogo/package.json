@@ -1,0 +1,22 @@
+{
+  "name": "@qx/binary-logo",
+  "main": "./dist/binary-logo.umd.js",
+  "module": "./dist/binary-logo.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/binary-logo.umd.js",
+      "module": "./dist/binary-logo.mjs"
+    }
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@qx/utils": "workspace:^"
+  },
+  "peerDependencies": {}
+}

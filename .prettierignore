@@ -1,0 +1,10 @@
+dist
+node_modules
+auto-imports.d.ts
+components.d.ts
+pnpm-lock.yaml
+pnpm-workspace.yaml
+.husky
+.prettierignore
+.gitignore
+.npmrc

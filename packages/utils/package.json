@@ -1,0 +1,19 @@
+{
+  "name": "@qx/utils",
+  "main": "./dist/qx-utils.umd.js",
+  "module": "./dist/qx-utils.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/qx-utils.umd.js",
+      "module": "./dist/qx-utils.mjs"
+    }
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,96 @@
+{
+  "editor.tabSize": 2, // 设置缩进的空格数
+  "editor.insertSpaces": true, // 使用空格而不是制表符进行缩进
+  "editor.detectIndentation": false, // 禁用自动检测文件的缩进方式
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": false,
+    "**/.deploy_git": true,
+    "**/.history": true
+  },
+  // 指定哪些文件不参与搜索
+  "search.exclude": {
+    "**/node_modules": true,
+    "dist": true,
+    "build": true,
+    "yarn.lock": true
+  },
+  // 指定 typescript 的路径，使其能够找到项目中安装的 typescript。
+  "typescript.tsdk": "node_modules/typescript/lib",
+  // 关闭 IDE 自带的样式验证
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  // 指定 stylelint 生效的文件类型(尤其是 vue 文件)。
+  "stylelint.validate": ["css", "scss", "postcss", "vue"],
+  // 启用 eslint 的格式化能力
+  "eslint.format.enable": true,
+  // eslint 会在检查出错误时，给出对应的文档链接地址
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  // 指定 eslint 生效的文件类型(尤其是 vue 文件)。
+  "eslint.probe": ["javascript", "typescript", "vue"],
+  // 指定 eslint 的工作区
+  // "eslint.workingDirectories": [
+  //   {
+  //     "mode": "auto"
+  //   }
+  // ],
+  // 指定 eslint 的 node_modules 路径，使其能够找到项目中安装的 eslint。
+  "eslint.nodePath": "node_modules",
+  // 在保存时，自动修复 lint 错误。
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  // 保存时自动格式化
+  "editor.formatOnSave": true,
+  // 指定格式化工具为 prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // 行尾默认为 LF 换行符而非 CRLF
+  "files.eol": "\n",
+  // 自动补充闭合的 HTML 标签
+  "html.autoClosingTags": true
+}

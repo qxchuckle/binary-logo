@@ -1,0 +1,5 @@
+packages:
+  # 主包，存放各个子模块
+  - "packages/*"
+  # 示例
+  - "demo"

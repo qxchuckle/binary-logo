@@ -1,0 +1,16 @@
+{
+  "name": "@qx/demo",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@qx/binary-logo": "workspace:^",
+    "axios": "^1.7.7",
+    "vue": "^3.5.3",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {},
+  "peerDependencies": {}
+}

@@ -1,0 +1,10 @@
+{
+  // IDE 会主动询问打开项目的新用户是否安装这些插件。
+  "recommendations": [
+    "vue.volar",
+    "vue.vscode-typescript-vue-plugin",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "dbaeumer.vscode-eslint"
+  ]
+}
