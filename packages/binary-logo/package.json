@@ -16,7 +16,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@qx/utils": "workspace:^"
-  },
-  "peerDependencies": {}
+    "@qx/utils": "workspace:^",
+    "qx-canvas": "^1.1.4"
+  }
 }
